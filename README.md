@@ -200,6 +200,5 @@ Interactive analytics pane plotting issue distributions, carrier compliance comp
 
 ## 👥 Author Information
 
-* **Author**: Capstone Engineering Team
-* **Contact**: support@sdis-logistics.ai
+* **Author**: sowmya pasupuleti
 * **Repository**: [Smart Delivery Intelligence System](https://github.com/)
