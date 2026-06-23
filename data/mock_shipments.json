@@ -1,0 +1,127 @@
+[
+  {
+    "shipment_id": "SDIS-10029",
+    "customer_name": "Sarah Connor",
+    "order_id": "ORD-99081",
+    "order_value": 249.99,
+    "ticket_time": "2026-06-23 08:30:00",
+    "customer_complaint": "My delivery was scheduled for yesterday. It is a high-value industrial control board, and I need it urgently. The tracking shows it is stuck at the Chicago Hub. Please check and let me know when it will arrive, or issue a replacement immediately!",
+    "tracking_history": [
+      {"timestamp": "2026-06-21 09:00:00", "location": "Origin Warehouse", "activity": "Shipment picked up by FedEx"},
+      {"timestamp": "2026-06-21 21:00:00", "location": "Indianapolis sorting facility", "activity": "Transit scan"},
+      {"timestamp": "2026-06-22 04:30:00", "location": "Chicago Transit Hub", "activity": "Arrived at hub - Sort delay"}
+    ],
+    "route_info": {
+      "origin": "Indianapolis, IN",
+      "destination": "Minneapolis, MN",
+      "carrier": "FedEx",
+      "distance_miles": 550,
+      "historical_speed_mph": 55
+    },
+    "weather_telemetry": {
+      "location": "Chicago, IL",
+      "condition": "Severe Snowstorm and Ice Alerts",
+      "severity": "CRITICAL"
+    }
+  },
+  {
+    "shipment_id": "SDIS-20847",
+    "customer_name": "Tony Stark",
+    "order_id": "ORD-55410",
+    "order_value": 79.99,
+    "ticket_time": "2026-06-23 09:15:00",
+    "customer_complaint": "The package arrived just now but the outer box is completely squashed and torn open. The item inside has cracked plastic parts. This is unacceptable! I want a new one sent to me immediately.",
+    "tracking_history": [
+      {"timestamp": "2026-06-22 08:00:00", "location": "New York Distribution Center", "activity": "Shipment picked up by DHL"},
+      {"timestamp": "2026-06-23 07:15:00", "location": "Boston Sort Facility", "activity": "Arrival scan - Container damaged"},
+      {"timestamp": "2026-06-23 09:00:00", "location": "Boston Out for Delivery", "activity": "Delivered - Package damage reported"}
+    ],
+    "route_info": {
+      "origin": "New York City, NY",
+      "destination": "Boston, MA",
+      "carrier": "DHL",
+      "distance_miles": 215,
+      "historical_speed_mph": 45
+    },
+    "weather_telemetry": {
+      "location": "Boston, MA",
+      "condition": "Light rain",
+      "severity": "LOW"
+    }
+  },
+  {
+    "shipment_id": "SDIS-30911",
+    "customer_name": "Bruce Wayne",
+    "order_id": "ORD-11200",
+    "order_value": 450.00,
+    "ticket_time": "2026-06-23 10:00:00",
+    "customer_complaint": "Your system marked my package as delivered two hours ago, but I have checked my front porch and security gates, and there is absolutely nothing here. I am concerned it has been stolen. This is a very expensive order.",
+    "tracking_history": [
+      {"timestamp": "2026-06-22 10:00:00", "location": "Gotham Fulfillment Center", "activity": "Shipment picked up by BlueDart"},
+      {"timestamp": "2026-06-23 08:00:00", "location": "Gotham City Sort Facility", "activity": "Out for Delivery"},
+      {"timestamp": "2026-06-23 08:00:00", "location": "Gotham Residence Gate", "activity": "Delivered - Left on porch"}
+    ],
+    "route_info": {
+      "origin": "Gotham Depot",
+      "destination": "Gotham Manor",
+      "carrier": "BlueDart",
+      "distance_miles": 15,
+      "historical_speed_mph": 20
+    },
+    "weather_telemetry": {
+      "location": "Gotham City",
+      "condition": "Overcast and fog",
+      "severity": "LOW"
+    }
+  },
+  {
+    "shipment_id": "SDIS-40222",
+    "customer_name": "Peter Parker",
+    "order_id": "ORD-33202",
+    "order_value": 29.99,
+    "ticket_time": "2026-06-23 10:45:00",
+    "customer_complaint": "My order has been sitting in custom checks at the international airport sorting office for 4 days. Please look into it! It shouldn't take this long.",
+    "tracking_history": [
+      {"timestamp": "2026-06-18 14:00:00", "location": "Shenzhen Hub", "activity": "Package received"},
+      {"timestamp": "2026-06-19 16:30:00", "location": "Hong Kong Airport", "activity": "Departed international terminal"},
+      {"timestamp": "2026-06-20 02:00:00", "location": "Mumbai Airport Customs", "activity": "Arrived at customs - Held for import tax invoice verification"}
+    ],
+    "route_info": {
+      "origin": "Shenzhen, CN",
+      "destination": "Mumbai, IN",
+      "carrier": "Delhivery",
+      "distance_miles": 2600,
+      "historical_speed_mph": 350
+    },
+    "weather_telemetry": {
+      "location": "Mumbai, IN",
+      "condition": "Heavy Monsoonal Rain",
+      "severity": "HIGH"
+    }
+  },
+  {
+    "shipment_id": "SDIS-50388",
+    "customer_name": "Clark Kent",
+    "order_id": "ORD-66710",
+    "order_value": 15.50,
+    "ticket_time": "2026-06-23 11:20:00",
+    "customer_complaint": "I got an alert stating that the package is undeliverable due to address issue. I verified my profile street address is correct. Please tell the delivery courier to double check or call me to resolve.",
+    "tracking_history": [
+      {"timestamp": "2026-06-21 11:00:00", "location": "Metropolis Warehouse", "activity": "Shipment picked up"},
+      {"timestamp": "2026-06-22 15:30:00", "location": "Smallville Depot", "activity": "Out for delivery - Delivery attempt failed"},
+      {"timestamp": "2026-06-22 17:00:00", "location": "Smallville Depot", "activity": "Returned to station - Address verification required"}
+    ],
+    "route_info": {
+      "origin": "Metropolis, NY",
+      "destination": "Smallville, KS",
+      "carrier": "Delhivery",
+      "distance_miles": 1200,
+      "historical_speed_mph": 60
+    },
+    "weather_telemetry": {
+      "location": "Smallville, KS",
+      "condition": "Sunny and clear",
+      "severity": "LOW"
+    }
+  }
+]
